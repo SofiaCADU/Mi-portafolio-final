@@ -1,0 +1,50 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #e0ffff;
+
+}
+
+.Principio{
+    background-color: rgb(0, 185, 185);
+    display: flex;
+}
+
+.usuario{
+    border-radius: 50%;
+    
+}
+
+.Nombre{
+    background-color: rgb(0,185,185);
+    padding-top: 30px;
+    padding-left: 10px;
+}
+
+h3{
+    text-decoration: underline;
+    color: rgb(255, 0, 0);
+}
+
+.Pipo{
+    border-radius: 20%;
+}
+
+marquee{
+    opacity: .2;
+    color: black;
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+}
+marquee{
+    display: inline-block;
+    animation: marquee 15s linear infinite;
+}
+@keyframes marquee{
+    0%{transform: translateX(100%);}
+    100%{transform: translateX(-100%)}
+}
+
+.asignacion{
+    font-weight: bold;
+}
